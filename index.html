@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h2>Calculadora de pace</h2>
+
+        <div class="input">
+            <label for="email">Digite seu nome:</label>
+            <input class="form-control" type="text" id='nome' required="required">
+       </div>
+       
+       <br>
+
+       <div class="input">
+        <label for="email">Digite seu peso:</label>
+        <input class="form-control" type="text" id='peso' required="required">
+        </div>
+
+        <br>
+
+       <div class="input">
+        <label for="email">Digite a distancia percorrida(Em KM):</label>
+         <input class="form-control" type="number" id='distancia' required="required" >
+        </div>
+
+        <br>
+
+       <div class="input">
+        <label for="email">Digite o tempo(Em minutos):</label>
+           <input class="form-control" type="number" id='tempo'required="required">
+       </div>
+
+       <br>
+
+       <button class="btn btn-primary"id='calcular'>Calcular</button>
+
+       <br>
+       
+       <div class="result" id='resultado'></div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
